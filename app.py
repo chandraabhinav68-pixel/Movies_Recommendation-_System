@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pickle
 import requests
@@ -11,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-TMDB_API_KEY = "70afddcfd2a0ae3eb5ad8cf6e847132e"
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY", "")
 PLACEHOLDER_POSTER = "https://placehold.co/500x750?text=No+Poster"
 
 # --- CUSTOM CSS ---
