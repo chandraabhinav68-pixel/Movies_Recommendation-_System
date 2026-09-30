@@ -1,8 +1,8 @@
-﻿# ðŸŽ¬ CineMatch: Movie Recommendation System
+# 🎬 CineMatch: Movie Recommendation System
 
 A content-based movie recommender built with Python and Streamlit. Pick a movie you like and CineMatch suggests similar films, complete with posters, ratings, genres, and overviews pulled live from the TMDB API.
 
-**ðŸ”— Live demo:** https://movies-recommendation-system-e2e8.onrender.com
+**🔗 Live demo:** https://movies-recommendation-system-e2e8.onrender.com
 
 > The app is hosted on Render's free tier, so the first load after a period of inactivity can take 50 seconds or more while the instance wakes up.
 
@@ -40,11 +40,11 @@ The full data preparation and model-building workflow is in `Movie_recommendatio
 ## Project structure
 
 ```
-â”œâ”€â”€ app.py                          # Streamlit application
-â”œâ”€â”€ Movie_recommendation_system.ipynb  # Data prep and model building
-â”œâ”€â”€ movies.pkl                      # Processed movie data
-â”œâ”€â”€ similarity.pkl                  # Cosine similarity matrix
-â””â”€â”€ requirements.txt                # Pinned dependencies
+├── app.py                          # Streamlit application
+├── Movie_recommendation_system.ipynb  # Data prep and model building
+├── movies.pkl                      # Processed movie data
+├── similarity.pkl                  # Cosine similarity matrix
+└── requirements.txt                # Pinned dependencies
 ```
 
 ## Run it locally
